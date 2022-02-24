@@ -40,10 +40,10 @@ body {
   float: left;
 }
 
-/* Header */
+/* Navbar */
 
-.top-bar {
-  height: 10%;
+.navbar {
+  height: 100px;
   background-color: white;
   position: fixed;
   top: 0;
@@ -52,38 +52,44 @@ body {
   display: block;
 }
 
-.top-bar > img {
+.navbar > img {
   float: left;
   position: relative;
+  margin-top: 33px;
+  margin-left: 20px;
 }
 
-.top-bar ul {
+.navbar ul {
   display: inline-block;
   list-style: none;
+  padding-left: 50px;
+  margin-top: 33px;
+  margin-left: 20px;
 }
 
-.top-bar li {
+.navbar li {
   display: inline-block;
   margin-left: 5px;
-  max-height: 5%;
+  margin-right: 30px;
 }
 
 .btn {
-  padding: 5px 12px;
+  padding: 5px 10px;
+  width: 220px;
   background-color: #0061ff;
   color: #fff;
   text-decoration: none;
 }
 
 #inizia.btn {
-  padding: 5px 5px;
   width: 100%;
-  height: 50px;
+  height: 35px;
   background-color: #0061ff;
-  font-size: 14px;
   color: #fff;
-  text-align: center;
+  line-height: 135%;
 }
+
+/* Header */
 
 header {
   background-color: #b4d0e7;
@@ -91,18 +97,5 @@ header {
   margin-top: 100px;
 }
 
-h1 {
-  font-size: 30px;
-}
-
-#title {
-  width: 100%;
-  height: 100px;
-}
-
 .mini-jumbo {
-  height: 30%;
-  width: 20%;
-  float: left;
-  display: inline-block;
 }
