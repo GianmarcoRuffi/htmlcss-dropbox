@@ -175,9 +175,11 @@ h2 {
   margin-left: 12px;
 }
 
+/* Rows */
+
 .first-row {
   width: 100%;
-  height: 80%;
+  height: 1200px;
 }
 
 .column {
@@ -185,8 +187,8 @@ h2 {
   height: 100%;
   border: 1px solid gray;
   margin-top: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .top-col {
@@ -204,9 +206,9 @@ h3 {
 
 .jumbo-col {
   width: 100%;
-  height: 40%;
-  padding-left: 15%;
-  padding-right: 15%;
+  height: 520px;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 10%;
 }
 
@@ -225,9 +227,6 @@ h3 {
 
 .jumbo-col ul {
   margin-top: 20%;
-}
-
-.jumbo-col ul {
   list-style: none;
 }
 
@@ -243,4 +242,32 @@ h3 {
   padding-right: 5px;
   width: 280px;
   height: 35px;
+}
+
+.purchase {
+  min-width: 100%;
+  height: 10px;
+}
+
+.jumbo-list {
+  width: 100%;
+  height: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.jumbo-list ul {
+  list-style: none;
+}
+
+.jumbo-list li {
+  margin-top: 8%;
+}
+
+.jumbo-list li:first-child {
+  font-weight: bold;
+}
+
+.jumbo-list i {
+  color: #0061ff;
 }
