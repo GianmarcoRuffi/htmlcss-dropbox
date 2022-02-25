@@ -180,6 +180,8 @@ h2 {
 .first-row {
   width: 100%;
   height: 1200px;
+  padding-left: 8%;
+  padding-top: 2%;
 }
 
 .column {
@@ -187,8 +189,8 @@ h2 {
   height: 100%;
   border: 1px solid gray;
   margin-top: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .top-col {
