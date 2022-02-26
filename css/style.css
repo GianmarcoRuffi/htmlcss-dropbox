@@ -102,13 +102,13 @@ header {
   width: 80%;
   height: 100%;
   margin: auto;
-  padding-top: 70px;
+  padding-top: 40px;
 }
 
 #title h1 {
   font-size: 80px;
   text-align: left;
-  margin-bottom: -50px;
+  padding-top: 4%;
 }
 
 .mini-jumbo {
@@ -116,13 +116,14 @@ header {
   height: 100%;
   width: 30%;
   text-align: left;
-  padding-top: 110px;
+  padding-top: 8%;
 }
 
 .jumbotron > img {
   float: right;
   position: relative;
   width: 60%;
+  padding-top: 8%;
 }
 
 /* Section */
@@ -346,7 +347,7 @@ h3 {
 /* Section two */
 
 .two {
-  height: 1000px;
+  height: 650px;
   padding-top: 10px;
 }
 
@@ -395,4 +396,62 @@ h3 {
 .white-button p {
   line-height: 120%;
   text-align: center;
+}
+
+.three {
+  height: 1500px;
+  padding-top: 10px;
+}
+
+/* Cards section */
+
+.container {
+  width: 80%;
+}
+
+.row img {
+  width: 400px;
+  height: 600px;
+}
+
+.card img {
+  max-width: 50%;
+  max-height: 50%;
+  margin-bottom: 80px;
+  display: inline-block;
+  position: relative;
+}
+
+.info {
+  position: relative;
+  display: inline-block;
+  bottom: 0;
+}
+
+.brand {
+  font-weight: normal;
+}
+
+.model {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.price {
+  color: #eb0037;
+  font-weight: bold;
+}
+
+.original- {
+  color: black;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+.card > img {
+  position: absolute;
+}
+
+.card:hover {
 }
