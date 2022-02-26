@@ -409,49 +409,45 @@ h3 {
   width: 80%;
 }
 
-.row img {
-  width: 400px;
-  height: 600px;
+.card {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  margin-right: 4%;
+  margin-bottom: 10%;
 }
 
-.card img {
-  max-width: 50%;
-  max-height: 50%;
-  margin-bottom: 80px;
+.c-debug {
+  margin-right: 0;
+}
+
+.row img {
+  width: 100%;
+  height: 100%;
   display: inline-block;
   position: relative;
 }
 
 .info {
-  position: relative;
   display: inline-block;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.brand {
-  font-weight: normal;
+.info h3 {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 5%;
 }
 
-.model {
+.txt {
   font-size: 1em;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
-.price {
-  color: #eb0037;
-  font-weight: bold;
+.shrink {
+  transition: all 0.2s ease-in-out;
 }
 
-.original- {
-  color: black;
-  font-weight: normal;
-  text-decoration: line-through;
-}
-
-.card > img {
-  position: absolute;
-}
-
-.card:hover {
+.shrink:hover {
+  transform: scale(0.9);
 }
