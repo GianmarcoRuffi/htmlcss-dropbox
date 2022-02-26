@@ -348,12 +348,51 @@ h3 {
 .two {
   height: 1000px;
   padding-top: 10px;
-  background-color: darkgreen;
 }
 
 .mid-row {
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  background-color: chocolate;
+}
+
+.partnership img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.partnership {
+  width: 50%;
+  height: 100%;
+}
+
+.right.partnership {
+  padding-left: 5%;
+  padding-right: 2%;
+  padding-top: 4%;
+}
+
+.partnership h3 {
+  font-weight: bold;
+  font-size: 30px;
+  padding-right: 5%;
+}
+
+.partnership p {
+  line-height: 30px;
+  padding-right: 5%;
+  padding-top: 4%;
+}
+
+.white-button {
+  height: 40px;
+  width: 180px;
+  border: 1px solid black;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+.white-button p {
+  line-height: 120%;
+  text-align: center;
 }
