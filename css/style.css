@@ -135,24 +135,28 @@ header {
 
 .one {
   height: 2000px;
-  padding-top: 250px;
+  padding-top: 220px;
 }
 
-h2 {
+.text-big h2 {
   font-size: 40px;
+  margin-left: 0;
+  overflow: auto;
 }
 
 .text-big {
-  position: relative;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: 10%;
+  width: 90%;
+  height: 5%;
+  overflow: auto;
 }
 
 #fake-checks {
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .checked {
@@ -197,6 +201,7 @@ h2 {
   color: rgba(128, 128, 128, 0.404);
   width: 20%;
   margin-left: 10%;
+  margin-top: 6%;
 }
 
 .top-col {
