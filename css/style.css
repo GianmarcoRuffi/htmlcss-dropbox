@@ -581,7 +581,7 @@ h3 {
 .business.left > h1 {
   color: #61082b;
   font-size: 40px;
-  padding-left: 30%;
+  padding-left: 22%;
   padding-top: 12%;
 }
 
@@ -594,7 +594,7 @@ h3 {
   font-weight: bold;
 
   margin-top: 12%;
-  margin-left: 35%;
+  margin-left: 32%;
   text-align: center;
   padding-top: 14px;
 }
@@ -604,6 +604,11 @@ h3 {
 .six {
   height: 700px;
   margin-top: 0;
-  width: 100%;
-  background-color: darkblue;
+  width: 80%;
+  background-color: darkkhaki;
+}
+
+.section.six > h1 {
+  font-size: 35px;
+  padding-top: 10%;
 }
