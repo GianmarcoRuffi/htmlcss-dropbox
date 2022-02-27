@@ -563,3 +563,47 @@ h3 {
 .yellow {
   background-color: #ffd830;
 }
+
+/* Section five */
+
+.five {
+  height: 330px;
+  margin-top: 0;
+  width: 100%;
+  background-color: #b4d0e7;
+}
+
+.business {
+  height: 100%;
+  width: 50%;
+}
+
+.business.left > h1 {
+  color: #61082b;
+  font-size: 40px;
+  padding-left: 30%;
+  padding-top: 12%;
+}
+
+.button {
+  width: 45%;
+  height: 15%;
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+
+  margin-top: 12%;
+  margin-left: 35%;
+  text-align: center;
+  padding-top: 14px;
+}
+
+/* Section six */
+
+.six {
+  height: 700px;
+  margin-top: 0;
+  width: 100%;
+  background-color: darkblue;
+}
