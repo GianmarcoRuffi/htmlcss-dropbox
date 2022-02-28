@@ -667,3 +667,14 @@ h3 {
   font-size: 25px;
   margin-bottom: 25px;
 }
+
+.separator-bottom {
+  color: white;
+  width: 9%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.footer span {
+  color: #999999;
+}
