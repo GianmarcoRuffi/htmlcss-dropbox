@@ -73,6 +73,8 @@ navbar li {
   margin-right: 30px;
 }
 
+/* Buttons */
+
 .btn {
   padding: 5px 10px;
   width: 220px;
@@ -87,6 +89,26 @@ navbar li {
   background-color: #0061ff;
   color: #fff;
   line-height: 135%;
+}
+
+.btn:hover {
+  background-color: #4f6cec9f;
+  cursor: pointer;
+}
+
+#inizia.btn:hover {
+  background-color: #4f6cec9f;
+  cursor: pointer;
+}
+
+.white-button:hover {
+  background-color: rgba(189, 189, 189, 0.568);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(158, 158, 158, 0.781);
+  cursor: pointer;
 }
 
 /* Header */
