@@ -652,17 +652,22 @@ h3 {
   padding-top: 6%;
 }
 
-.footer-section ul {
-  list-style: none;
+.footer-list {
+  width: 15%;
+  height: 205px;
   display: inline-block;
-  padding-right: 8%;
+}
+
+.footer-list ul {
+  list-style: none;
+  height: 100%;
 }
 
 .footer-section li {
-  margin-top: 8px;
+  line-height: 30px;
 }
 
-.footer-section li:first-child {
+.footer-list li:first-child {
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 25px;
@@ -673,6 +678,7 @@ h3 {
   width: 9%;
   margin-top: 8%;
   margin-bottom: 5%;
+  display: block;
 }
 
 .footer span {
