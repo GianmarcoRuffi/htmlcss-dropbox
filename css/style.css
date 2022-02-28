@@ -647,15 +647,18 @@ h3 {
 }
 
 .footer-section {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding-top: 6%;
+  padding-left: 4%;
 }
 
 .footer-list {
   width: 15%;
   height: 205px;
+  margin-right: 3%;
   display: inline-block;
+  vertical-align: top;
 }
 
 .footer-list ul {
@@ -663,14 +666,14 @@ h3 {
   height: 100%;
 }
 
-.footer-section li {
-  line-height: 30px;
-}
-
 .footer-list li:first-child {
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 25px;
+}
+
+.footer-list li {
+  line-height: 30px;
 }
 
 .separator-bottom {
