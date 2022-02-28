@@ -331,15 +331,14 @@ h3 {
 }
 
 .col-btn {
-  margin-bottom: 30px;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
   text-align: center;
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 280px;
+  width: 100%;
   height: 35px;
   background-color: #0061ff;
   color: white;
+  line-height: 35px;
 }
 
 .purchase {
