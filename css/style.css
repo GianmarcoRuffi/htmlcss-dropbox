@@ -112,7 +112,7 @@ navbar a.menu:hover {
 .btn:hover,
 .btn-start:hover,
 .wrap-right .btn:hover,
-.jumbo-btn:hover {
+.col-btn:hover {
   background-color: #4f6cec9f;
   cursor: pointer;
   transition: 0.5s;
@@ -330,7 +330,7 @@ h3 {
   margin-top: 8%;
 }
 
-.jumbo-btn {
+.col-btn {
   margin-bottom: 50px;
   margin-top: 50px;
   text-align: center;
