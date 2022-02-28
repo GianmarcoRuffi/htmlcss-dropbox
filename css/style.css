@@ -126,12 +126,14 @@ header {
   padding-top: 8%;
 }
 
-/* Section */
+/* Internal Section class tag */
 
 .section {
   width: 80%;
   margin: 0 auto;
 }
+
+/* Section one */
 
 .one {
   height: 2000px;
@@ -180,7 +182,7 @@ header {
   margin-left: 12px;
 }
 
-/* Rows */
+/* Rows - section one */
 
 .first-row {
   width: 100%;
@@ -412,7 +414,7 @@ h3 {
   padding-top: 10px;
 }
 
-/* Cards section */
+/* Section three - Cards section */
 
 .container {
   width: 80%;
@@ -607,7 +609,7 @@ h3 {
 /* Section six */
 
 .six {
-  height: 900px;
+  height: 860px;
   margin-top: 0;
   width: 80%;
 }
@@ -641,4 +643,27 @@ h3 {
   margin-top: 0;
   width: 100%;
   background-color: #000000;
+  color: white;
+}
+
+.footer-section {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 6%;
+}
+
+.footer-section ul {
+  list-style: none;
+  display: inline-block;
+  padding-right: 8%;
+}
+
+.footer-section li {
+  margin-top: 8px;
+}
+
+.footer-section li:first-child {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 25px;
 }
